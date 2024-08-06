@@ -39,8 +39,8 @@ export default function Home() {
               <div className="flex flex-row items-center justify-center">
                 <div className="" />
                 <div className="flex flex-row text-md font-semibold text-dark-gray uppercase">
-                  <div><img src="icon" alt="upvote" className="w-4 h-4 mr-2" /></div>
-                  <div>Upvoted{/* */} {/* */}135</div>
+                  <div><img src={icon.src} className="mr-2 mt-1 h-4"/></div>
+                  <div>Upvoted{/* */} {/* */}</div>
                   </div>
               </div>
             </button>
